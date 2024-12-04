@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: DataManagementSystem
+  datasource:
+    url: jdbc:postgresql://localhost:5432/data_center
+    username: postgres
+    password: 2010127mN
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
